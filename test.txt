@@ -1,1 +1,1 @@
-Abhijit
+echo "Abhijit value: ${Abhijit}"
