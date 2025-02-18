@@ -1,11 +1,11 @@
 pipeline {
     agent {
-        docker { image 'alpine:latest' }
+        docker { image 'hello-world' }
     }
     stages {
         stage('build') {
             steps {
-                sh 'alpine --version'
+                sh 'jenkins --version'
                 sh 'echo Hello Jenkins'
             }
         }
