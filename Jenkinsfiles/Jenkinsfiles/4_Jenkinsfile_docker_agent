@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python --version'
+                sh 'alpine --version'
                 sh 'echo Hello Jenkins'
             }
         }
