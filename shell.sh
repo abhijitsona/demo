@@ -1,3 +1,3 @@
 echo "This is Jenkins script"
-pwd
+pw
 ls -la
